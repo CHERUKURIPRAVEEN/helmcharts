@@ -7,11 +7,11 @@
 * Charts are files that are written in YAML and packaged in a particular directory structure which can be versioned within any source control systems. These charts describe a set of Kubernetes resources which makes up the entire application
 * Helm is an official Kubernetes project and is part of CNCFS
 #### Helm Can:
-✔ Install software
-✔ Automatically install software dependencies
-✔ Upgrade software
-✔ Configure software deployments
-✔ Fetch software packages from repositories called Charts repository
+- [ ] Install software
+- [ ] Automatically install software dependencies
+- [ ] Upgrade software
+- [ ] Configure software deployments
+- [ ] Fetch software packages from repositories called Charts repository
 
 **Helm packages**
 ```helm
@@ -87,7 +87,7 @@ Ex: Port number can be made mandatory and without which the chart cannot be inst
 #### Insatlling the Helm
 * From the Binary Releases
 Every release of Helm provides binary releases for a variety of OSes. These binary versions can be manually downloaded and installed.
-1. Download your ([desired version](https://github.com/helm/helm/releases))
+1. Download your [desired version](https://github.com/helm/helm/releases)
 2. Unpack it (tar -zxvf helm-v3.0.0-linux-amd64.tar.gz)
 3. Find the helm binary in the unpacked directory, and move it to its desired destination (mv linux-amd64/helm /usr/local/bin/helm)
 4. From there, you should be able to run the client and add the stable repo: helm help.
@@ -114,4 +114,4 @@ Since Fedora 35, helm is available on the official repository. You can install h
 ```
 sudo dnf install helm
 ```
-
+ref: helm install official page link [here](https://helm.sh/docs/intro/install/)
