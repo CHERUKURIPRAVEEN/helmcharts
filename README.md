@@ -7,7 +7,7 @@
 * Charts are files that are written in YAML and packaged in a particular directory structure which can be versioned within any source control systems. These charts describe a set of Kubernetes resources which makes up the entire application
 * Helm is an official Kubernetes project and is part of CNCFS
 #### Helm Can:
-- [ ] Install software
+- [x] Install software
 - [ ] Automatically install software dependencies
 - [ ] Upgrade software
 - [ ] Configure software deployments
