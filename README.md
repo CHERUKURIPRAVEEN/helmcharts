@@ -8,10 +8,10 @@
 * Helm is an official Kubernetes project and is part of CNCFS
 #### Helm Can:
 - [x] Install software
-- [ ] Automatically install software dependencies
-- [ ] Upgrade software
-- [ ] Configure software deployments
-- [ ] Fetch software packages from repositories called Charts repository
+- [x] Automatically install software dependencies
+- [x] Upgrade software
+- [x] Configure software deployments
+- [x] Fetch software packages from repositories called Charts repository
 
 **Helm packages**
 ```helm
